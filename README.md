@@ -3,6 +3,7 @@
 Aplicativo de agendamento de consultas médicas, feito inteiro em Python: o app
 de celular usa [Flet](https://flet.dev) e conversa com uma API em
 [FastAPI](https://fastapi.tiangolo.com).
+![Testes](https://github.com/Dv-TiagoCarvalho/Agenda-IA/actions/workflows/testes.yml/badge.svg)
 
 ![Telas do app: início, médicos, horários, confirmação e minhas consultas](docs/telas.png)
 
@@ -46,8 +47,8 @@ As regras ficam na API, e não no app, para valerem para qualquer cliente.
 Precisa de Python 3.10 ou mais novo.
 
 ```bash
-git clone <endereço deste repositório>
-cd agenda-app
+   git clone https://github.com/Dv-TiagoCarvalho/Agenda-IA.git
+   cd Agenda-IA
 python3 -m venv .venv
 source .venv/bin/activate        # no Windows: .venv\Scripts\activate
 pip install -r requirements.txt
