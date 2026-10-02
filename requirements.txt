@@ -1,0 +1,13 @@
+# App
+flet[all]>=1.0.3
+httpx>=0.28
+
+# API
+fastapi>=0.115
+uvicorn[standard]>=0.35
+sqlalchemy>=2.0
+pyjwt>=2.8
+
+# Testes
+pytest>=8
+pytest-asyncio>=1.0
